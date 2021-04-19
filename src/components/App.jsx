@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Category from "./Category";
 
 export default function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Category title="Horror" />
     </div>
-  )
+  );
 }
